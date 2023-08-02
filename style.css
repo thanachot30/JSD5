@@ -137,17 +137,18 @@ div.side_head{
 }
 #sub2_txt_head{
     margin: 0;
-    font-size: 32px;
+    font-size: 55px;
     padding-top: 32px;
     padding-bottom: 24px;
 }
 #sub2_txt_detail{
     margin: 0;
+    padding-bottom: 32px;
     font-size: 16px;
 }
 
 .side_sub1{
-    padding-left: 24px;
+    padding-left: 16px;
 }
 /* sub2 side detail*/
 .side_detail img{
@@ -163,20 +164,22 @@ a{
 .head_sub3{
     display: flex;
     justify-content: center;
-    font-size: 32px;
-    padding-top: 32px;
+    font-size: 55px;
+    padding: 32px 32px;
 }
 .head_sub4{
     display: flex;
     justify-content: center;
-    font-size: 32px;
+    font-size: 45px;
     margin: 0;
-    padding: 0;
+    padding-top: 32px;
+    padding-bottom: 16px;
 }
 
 .contrainer{
     display: flex;
     flex-direction: column;
+    padding-bottom: 32px;
     /* margin: 32px 72px; */
     
 }
@@ -255,7 +258,9 @@ a{
     flex-direction: row;
     justify-content: start;
     align-items: center;
-    
+}
+#txt_sub4{
+    font-size: 24px;
 }
 
 /* footer */
@@ -309,16 +314,23 @@ hr{
         width: auto;
     }
 
+    .side_sub1{
+        margin: 0;
+        padding: 0;
+    }
+    .btn_sub1{
+        padding-bottom: 32px;
+    }
+    #sub1_head{
+        font-size: 40px;
+    }
+
     #txt_head{
         font-size: 32px;
     }
     #txt_detail{
         font-size: 24px;
     }
-    .btn_sub1{
-        margin-bottom: 32px;
-    }
-
     /* sub2 mobile */
     div.side_head{
         display: none;
@@ -373,6 +385,9 @@ hr{
     /* sub3 modile */
     main article.sub3{
         background-color: whitesmoke;
+    }
+    .head_sub3{
+        font-size: 32px;
     }
     .card img{
         display: none;
